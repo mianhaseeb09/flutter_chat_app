@@ -7,7 +7,7 @@ import 'package:flutter_chat_app/services/database.dart';
 import 'package:flutter_chat_app/widgets/text_input.dart';
 
 class SearchScreen extends StatefulWidget {
-  const SearchScreen({Key? key}) : super(key: key);
+  const SearchScreen({super.key});
 
   @override
   State<SearchScreen> createState() => _SearchScreenState();

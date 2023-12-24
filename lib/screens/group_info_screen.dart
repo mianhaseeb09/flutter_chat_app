@@ -10,11 +10,10 @@ class GroupInfoScreen extends StatefulWidget {
   final String adminName;
 
   const GroupInfoScreen(
-      {Key? key,
+      {super.key,
       required this.adminName,
       required this.groupName,
-      required this.groupId})
-      : super(key: key);
+      required this.groupId});
 
   @override
   State<GroupInfoScreen> createState() => _GroupInfoState();

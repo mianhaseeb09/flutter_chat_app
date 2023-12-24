@@ -20,7 +20,7 @@ void main() async {
   } else {
     // run the android and ios
     await Firebase.initializeApp();
-  }
+    }
 
   runApp(const MyApp());
 }

@@ -9,8 +9,7 @@ class ProfileScreen extends StatefulWidget {
   String userName = "";
   String email = "";
 
-  ProfileScreen({Key? key, required this.userName, required this.email})
-      : super(key: key);
+  ProfileScreen({super.key, required this.userName, required this.email});
 
   @override
   State<ProfileScreen> createState() => _ProfileScreenState();
